@@ -9,11 +9,16 @@
   <foreignModel>ecoreMidi.ecore</foreignModel>
   <testsDirectory xsi:nil="true"/>
   <genPackages prefix="EcoreMidi" disposableProviderFactory="true" ecorePackage="ecoreMidi.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="ecoreMidi.ecore#//InstrNature">
+      <genEnumLiterals ecoreEnumLiteral="ecoreMidi.ecore#//InstrNature/GUITAR"/>
+      <genEnumLiterals ecoreEnumLiteral="ecoreMidi.ecore#//InstrNature/PIANO"/>
+      <genEnumLiterals ecoreEnumLiteral="ecoreMidi.ecore#//InstrNature/VIOLIN"/>
+    </genEnums>
     <genClasses ecoreClass="ecoreMidi.ecore#//Configuration">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ecoreMidi.ecore#//Configuration/configuration"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ecoreMidi.ecore#//Configuration/nbTracksInstr"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ecoreMidi.ecore#//Configuration/instrNature"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ecoreMidi.ecore#//Configuration/nbNoteBlack"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ecoreMidi.ecore#//Configuration/intrumNaturEnum"/>
     </genClasses>
     <genClasses ecoreClass="ecoreMidi.ecore#//Configuration.1"/>
   </genPackages>
