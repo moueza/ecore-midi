@@ -13,6 +13,7 @@
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ecoreMidi.ecore#//Configuration/configuration"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ecoreMidi.ecore#//Configuration/nbTracksInstr"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ecoreMidi.ecore#//Configuration/instrNature"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ecoreMidi.ecore#//Configuration/nbNoteBlack"/>
     </genClasses>
     <genClasses ecoreClass="ecoreMidi.ecore#//Configuration.1"/>
   </genPackages>
