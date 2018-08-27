@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="ecoreMidi" nsURI="http://www.example.org/ecoreMidi" nsPrefix="ecoreMidi">
+  <eClassifiers xsi:type="ecore:EClass" name="Configuration">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="configuration" eType="#//Configuration.1"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nbTracksInstr" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt" defaultValueLiteral="1"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="instrNature" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="guitar"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Configuration"/>
+</ecore:EPackage>
